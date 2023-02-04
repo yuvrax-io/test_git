@@ -1,0 +1,244 @@
+/* color palette 
+https://www.colorion.co/palette/87379
+
+
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+html,body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7rem;
+
+}
+a{
+    text-decoration: none;
+    color: #FCF7F7;
+}
+.container{
+    margin:0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+.main-nav{
+   background-color: #F1BB94;
+}
+
+.main-nav h1{
+    float:left;
+    padding :20px 20px 0 20px;
+    color: #6A8ED4;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.main-nav img{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    
+}
+
+.main-nav ul{
+    list-style: none;
+    float:right;
+}
+
+.main-nav li{
+    float:left;
+}
+
+
+.main-nav li a {
+    display: inline-block;
+    padding :20px;
+    text-align: center;
+
+}
+
+.main-nav li a:hover,.current{
+    background-color: #FA3C0A;
+    color: #F1BB94;
+    border-radius: 10%;
+}
+
+#main-content{
+    height: 630px;
+    background-image: linear-gradient(rgb(106, 142 , 212,0.7),rgba(8, 48, 128, 0.1)), url("office_2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+#main-content .content{
+    text-align: center;
+    padding-top: 150px;
+    color: #FA3C0A;
+
+}
+
+#main-content .content h1{
+    font-size:40px ;
+    line-height: 1.2rem;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color: #fa3a0a48;
+    color:#FCF7F7;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-bottom: 30px;
+  }
+  
+  .btn:hover {
+    background-color: #FA3C0A;
+    box-shadow: 0 0 20px #cd2e04;
+  }
+  
+  .btn:active {
+    background-color: #fb643c;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+  }
+
+  #center-content{
+    height: 690px;
+  }
+
+#center-content .image-section{
+    float:left;
+    width: 50%;
+    background-image: url("hunters-race-MYbhN8KaaEc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:100% ;
+}
+#center-content .center-info{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden ;
+}
+#center-content .center-info p{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.text-primary{
+    color:#6A8ED4;
+    font-size: 35px;
+}
+.border-bottom{
+    width: 30px;
+    height: 5px;
+    background-color: #cd2e04;
+    margin:0 auto;
+    border: 1px solid #cd2e04;
+}
+
+#services{
+    height: 500px;
+    background-color: #FCF7F7;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#services h2{
+    text-align: center;
+    padding :20px 0;
+}
+
+.item{
+    float:left;
+    margin-top:45px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 33%;
+    padding :50px;
+    text-align:center;
+}
+
+.bg-dark{
+    background-color: #cd2e04;
+    color: #F1BB94;
+}
+
+.bg-dark:hover{
+    background-color: #FCF7F7;
+    color: #131312;
+}
+
+#contact-section{
+    background-color: #F1BB94;
+
+}
+#contact-section .form-section{
+    width: 70%;
+    padding: 60px 0;
+    margin:0 auto;
+}
+#contact-section form{
+    padding:40px 20px;
+
+}
+
+#contact-section h2{
+    text-align: center;
+}
+
+#contact-section .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-section .form-group label{
+    display: block;
+    font-size: 18px;
+    color: #fb643c;
+    padding-bottom: 10px;
+}
+#contact-section .form-group input{
+    height: 50px;
+}
+
+#contact-section .form-group input,
+#contact-section .form-group textarea{
+width: 100%;
+padding:10px;
+border: none;
+border-radius: 1px;
+outline: none;
+
+}
+
+#contact-section .form-group input:focus,
+#contact-section .form-group textarea:focus{
+border-bottom:2px solid #6A8ED4;
+}
+ footer{
+    background-color: #6A8ED4;
+    text-align: center;
+    padding:20px ;
+    color:#cd2e04;
+ }
